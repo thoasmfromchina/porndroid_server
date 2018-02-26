@@ -5,10 +5,10 @@ import time,re
 
 class mongo_op(object):
     def __init__(self):
-            self.conn = mongoclient("172.16.255.252",65533)
+            self.conn = mongoclient("",)
     def authentication(self):
             try:
-                self.conn.PornHub.authenticate("pornhub","fqw34tg4@@")
+                self.conn.PornHub.authenticate("pornhub","")
             except Exception as e:
                 return e
             return True
